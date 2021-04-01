@@ -1,5 +1,4 @@
-package io.github.revelationgame.game.swagger;
-
+package io.github.revelationgame.realtime.swagger;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;

@@ -1,4 +1,4 @@
-package io.github.revelationgame.game.swagger;
+package io.github.revelationgame.realtime.swagger;
 
 import io.swagger.v3.oas.annotations.Hidden;
 import lombok.AllArgsConstructor;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Hidden
 public class CustomOpenApiController {
 
-    private CustomOpenApiService service;
+    private final CustomOpenApiService service;
 
     @GetMapping(value = "/v3/api-docs", produces = MediaType.APPLICATION_JSON_VALUE)
     public String getOpenApi(@RequestParam(value = "serverUrl") String serverUrl) {

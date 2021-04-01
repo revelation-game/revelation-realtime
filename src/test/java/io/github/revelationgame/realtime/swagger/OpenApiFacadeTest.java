@@ -1,4 +1,4 @@
-package io.github.revelationgame.game.swagger;
+package io.github.revelationgame.realtime.swagger;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

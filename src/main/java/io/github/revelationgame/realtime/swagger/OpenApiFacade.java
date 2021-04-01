@@ -1,4 +1,4 @@
-package io.github.revelationgame.game.swagger;
+package io.github.revelationgame.realtime.swagger;
 
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Component;
