@@ -54,6 +54,10 @@ dependencies {
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.springframework.cloud:spring-cloud-contract-wiremock'
+
+    // For testing with sse
+    // testImplementation 'org.springframework.boot:spring-boot-starter-webflux'
+
 }
 
 dependencyManagement {

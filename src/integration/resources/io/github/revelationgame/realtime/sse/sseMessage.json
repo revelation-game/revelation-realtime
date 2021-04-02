@@ -1,0 +1,7 @@
+{
+  "someId": "someIdValue",
+  "data": {
+    "nested1": "nested1data",
+    "nested2": 10
+  }
+}
